@@ -1,0 +1,35 @@
+{
+	"pluginAlias": "ButterflyMx",
+	"pluginType": "accessory",
+	"singular": true,
+	"schema": {
+		"type": "object",
+		"properties": {
+			"panelId": {
+				"type": "string",
+				"title": "Panel Id",
+				"description": "Obtain from /me response"
+			},
+			"unitId": {
+				"type": "string",
+				"title": "Unit Id",
+				"description": "Obtain from /me response"
+			},
+			"clientId": {
+				"type": "string",
+				"title": "Client Id",
+				"description": "Obtain from /token request"
+			},
+			"refreshToken": {
+				"type": "string",
+				"title": "Refresh Token",
+				"description": "Obtain from /token request"
+			},
+			"authToken": {
+				"type": "string",
+				"title": "Access Token",
+				"description": "Obtain from /me request"
+			}
+		}
+	}
+}
